@@ -1,0 +1,10 @@
+{
+  "video": false,
+  "defaultCommandTimeout":100000,
+  "respondeTimeout":100000,
+  "baseUrl": "http://automationpractice.com",
+  "ignoreTestFiles": "*.ts",
+  "testFiles": "**/*.feature",
+  "retries": 1
+}
+
