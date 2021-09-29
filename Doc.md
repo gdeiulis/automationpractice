@@ -1,3 +1,8 @@
+# difficulties
+  Automation practice website is extremely slow so I needed to add wait commands
+  I often get error 508 and other server errors
+  Html tags are not perfectly compatible with the latest browser's versions   
+  
 # configuration
 Configurations are inside config folder
   desktop.config,json 
@@ -10,8 +15,3 @@ Configurations are inside config folder
 
 # login credentials
   login crediantals are stored inside cypress/fixtures/userCred.json
-
-# difficulties
-  Automation practice website is extremely slow so I needed to add wait commands
-  I often get error 508 and other server errors
-  Html tags are not perfectly compatible with the latest browser's versions   
