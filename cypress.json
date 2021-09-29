@@ -1,0 +1,8 @@
+{
+   "video": false,
+  "defaultCommandTimeout":8000,
+  "baseUrl": "http://automationpractice.com",
+  "ignoreTestFiles": "*.ts",
+  "testFiles": "**/*.feature"
+}
+

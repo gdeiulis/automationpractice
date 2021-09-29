@@ -1,0 +1,23 @@
+{
+  "name": "automation_practice",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "cyopen:desktop": "cypress open --config-file config/desktop.config.json",
+    "cyopen:mobile": "cypress open --config-file config/mobile.config.json",
+    "cyrun:chrome": "cypress run --config-file config/desktop.config.json --browser chrome --headless",
+    "cyrun:firefox": "cypress run --config-file config/desktop.config.json --browser firefox --headless",
+    "cyrun:mobile": "cypress run --config-file config/mobile.config.json --browser chrome --headless"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@types/node": "^10.12.11",
+    "@cypress/webpack-preprocessor": "^5.9.1",
+    "cypress": "^8.5.0",
+    "cypress-cucumber-preprocessor": "^4.0.1",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.4.3",
+    "webpack": "^5.55.0"
+  }
+}
