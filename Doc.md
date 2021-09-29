@@ -13,5 +13,5 @@ Configurations are inside config folder
 
 # difficulties
   Automation practice website is extremely slow so I needed to add wait commands
-  I often get error 508
+  I often get error 508 and other server errors
   Html tags are not perfectly compatible with the latest browser's versions   
