@@ -12,7 +12,6 @@ Automation Practice project using Cypress, Cucumber & Typescript
   npm cyopen:mobile
   
   // run the test in headless mode 
-  
   npm cyrun:chrome
   npm cyrun:firefox
   npm cyrun:mobile
