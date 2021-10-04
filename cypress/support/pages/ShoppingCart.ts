@@ -19,8 +19,7 @@ export default class ShoppingCart extends Base{
     }
 
     addItem() {  
-        cy.get(".ajax_add_to_cart_button").eq(0).click() 
-        cy.get(".ajax_add_to_cart_button").eq(0).click()  
+        cy.get(".ajax_add_to_cart_button").eq(0).click().click() 
     }
 
     continueShopping() {  
@@ -49,7 +48,7 @@ export default class ShoppingCart extends Base{
     }
 
     deleteItem() {  
-          cy.wait(10000)
+        cy.wait(10000)
         cy.get(".icon-trash").eq(0).click()
 
     }
